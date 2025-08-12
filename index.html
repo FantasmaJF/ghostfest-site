@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Ghost Fest · Fábrica de Velas</title>
+  <link rel="stylesheet" href="css/styles.css"/>
+  <meta name="description" content="Velas decorativas, de aniversário e personalizadas. Catálogo Ghost Fest.">
+  <style>
+    /* fallback simples até criarmos o styles.css */
+    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:#0f0f10;color:#e9e9ec}
+    .nav{display:flex;gap:18px;align-items:center;justify-content:space-between;padding:16px 24px;border-bottom:1px solid #222;position:sticky;top:0;background:#111a}
+    .menu a{color:#e9e9ec;text-decoration:none;padding:8px 12px;border-radius:10px;background:#1b1b1e}
+    .hero{padding:80px 24px 30px;border-bottom:1px solid #222;background:radial-gradient(1200px 600px at 80% -20%, rgba(255,209,102,.15), transparent)}
+    .container{max-width:1100px;margin:0 auto}
+    h1{font-size:40px;margin:0 0 10px}
+    p{color:#b3b3b8}
+    .cta{display:flex;gap:12px;margin-top:18px}
+    .btn{padding:12px 16px;border-radius:12px;border:1px solid #333;background:#1b1b1e;color:#e9e9ec;text-decoration:none}
+    .btn.primary{background:#ffd166;color:#111}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:24px 0}
+    .card{background:#151517;border:1px solid #232326;border-radius:16px;padding:16px}
+    .footer{border-top:1px solid #222;padding:24px;color:#b3b3b8;text-align:center}
+    @media(max-width:900px){.grid{grid-template-columns:1fr 1fr}}
+    @media(max-width:640px){.grid{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+  <nav class="nav">
+    <div><strong>Ghost Fest</strong></div>
+    <div class="menu">
+      <a href="catalog.html">Catálogo</a>
+      <a href="pages/sobre.html">Sobre</a>
+      <a href="pages/contato.html">Contato</a>
+      <a class="btn primary" target="_blank" href="https://wa.me/5532XXXXXXXX?text=Quero%20escolher%20minhas%20velas%20da%20Ghost%20Fest">WhatsApp</a>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="container">
+      <h1>Velas que brilham mais no seu momento</h1>
+      <p>Catálogo completo de velas Ghost Fest: linhas Luxo, PII, Kits e Temáticas. Escolha a cor e veja a foto correspondente em tempo real.</p>
+      <div class="cta">
+        <a class="btn primary" href="catalog.html">Ver Catálogo</a>
+        <a class="btn" href="pages/sobre.html">Conheça a Ghost Fest</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="grid">
+      <div class="card"><h3>Catálogo eletrônico</h3><p>Navegue por categorias e cores em um clique.</p></div>
+      <div class="card"><h3>Variações reais</h3><p>Ao escolher a cor, a imagem do produto muda.</p></div>
+      <div class="card"><h3>WhatsApp</h3><p>Compartilhe o link do produto e finalize o pedido.</p></div>
+    </div>
+  </main>
+
+  <footer class="footer">© Ghost Fest · Juiz de Fora - MG</footer>
+</body>
+</html>
