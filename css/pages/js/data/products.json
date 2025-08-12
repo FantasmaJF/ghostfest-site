@@ -1,0 +1,35 @@
+[
+  {
+    "id": "luxo-07",
+    "code": "LX-07",
+    "name": "Vela Luxo 07",
+    "category": "Luxo",
+    "material": "Parafina premium, pavio de algodão",
+    "size": "12 cm x 2,5 cm",
+    "description": "Acabamento fino e brilho intenso, ideal para bolos de alto padrão.",
+    "colors": ["dourado","rosa","azul"],
+    "color_hex": {"dourado":"#FFD166","rosa":"#FF6FA4","azul":"#4DB6FF"},
+    "images": ["https://placehold.co/800x800?text=Luxo+07"],
+    "images_by_color": {
+      "dourado": "https://placehold.co/800x800/FFD166/111?text=Luxo+07+Dourado",
+      "rosa": "https://placehold.co/800x800/FF6FA4/111?text=Luxo+07+Rosa",
+      "azul": "https://placehold.co/800x800/4DB6FF/111?text=Luxo+07+Azul"
+    }
+  },
+  {
+    "id": "pii-01",
+    "code": "PII-01",
+    "name": "Vela PII 01",
+    "category": "PII",
+    "material": "Parafina especial com pigmentação sólida",
+    "size": "10 cm x 2 cm",
+    "description": "Modelo versátil com ótima presença visual.",
+    "colors": ["vermelho","branco"],
+    "color_hex": {"vermelho":"#FF4D4D","branco":"#E6E6E6"},
+    "images": ["https://placehold.co/800x800?text=PII+01"],
+    "images_by_color": {
+      "vermelho": "https://placehold.co/800x800/FF4D4D/111?text=PII+01+Vermelho",
+      "branco": "https://placehold.co/800x800/E6E6E6/111?text=PII+01+Branco"
+    }
+  }
+]
